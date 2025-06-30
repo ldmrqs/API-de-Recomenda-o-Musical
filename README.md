@@ -2,6 +2,4 @@
 ## Techstack:
 - Python
 - Docker
-- JSON
-- AWS (soon)
-- Banco de Dados (soon, a decidir)
+- AWS (S3, Dynamodb, IAM, Lambda, Bedrock, Cloudwatch)
