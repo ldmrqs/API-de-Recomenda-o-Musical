@@ -10,8 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  profile = "apimusical"
-  region  = "sa-east-1"
+  region = "sa-east-1"
 }
 
 resource "random_id" "suffix" {
