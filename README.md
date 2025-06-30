@@ -1,5 +1,5 @@
-API de recomendação musical criado para estudos de Docker.
-Techstack:
+# API de recomendação musical criado para estudos de Docker.
+## Techstack:
 - Python
 - Docker
 - JSON
