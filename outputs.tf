@@ -1,6 +1,5 @@
 output "api_endpoint" {
-  value       = "${aws_api_gateway_deployment.music_api_deployment.invoke_url}/recommend"
-  description = "URL pública do endpoint de recomendação"
+  value = "${aws_api_gateway_stage.music_api_stage.invoke_url}/recommend"
 }
 
 output "lambda_bucket_name" {
