@@ -67,11 +67,6 @@ resource "aws_iam_role_policy_attachment" "lambda_policy_attach" {
   policy_arn = aws_iam_policy.lambda_policy.arn
 }
 
-variable "lambda_package_file" {
-  description = "Lambda deployment package path"
-  default     = "lambda/lambda_function.zip"
-}
-
 resource "aws_lambda_function" "recommendation" {
   function_name = "music-recs-lambda"
   role          = aws_iam_role.lambda_exec.arn
